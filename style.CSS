@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0;
+   }
+
+.logo {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.2rem;
+    /* font-weight: 800; */
+    /* padding-bottom: 5px; */
+    /* height: 50px; */
+}
+
+.nav {
+    position: relative;
+    word-spacing: 50px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #093500;
+}
+
+nav .menu {
+    line-height: 2;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li :hover {
+    text-decoration: underline;
+}
+
+h1 {
+    position: relative;
+    color: #ffffff;
+    margin-top: -2%;
+    font-size: 4rem;
+}
+
+#into {
+    text-align: center;
+    width: 100%;
+}
+
+#intro-text {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffffff;
+    font-size: 1.4rem;
+} 
+
+#hero-banner {
+    background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('Images/background.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    #main {
+        height: 300px;
+    }
+}
+
+.services-grid {
+    height: 450px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+}
+
+.box{
+    box-shadow: 1px 1px 12px #808080;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-text {
+    margin: 5% 5%;
+    text-align: center;
+}
+
+.hedge {
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    position: absolute;
+}
+
+.fagot {
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    position: absolute;
+}
+
+.willow-dome {
+    width: 100% ;
+    height: 300px;
+    bottom: 0;
+    position: absolute;
+}
+
+.container {
+    height: 1000px;
+    width: 98%;
+    grid-template-rows: repeat(5, 1fr);
+    display: grid;
+    grid-gap: 2%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service {
+    box-shadow: 1px 1px 12px #808080;
+}
+
+#footer-contacts {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #D0D0D0;
+    text-align: center;
+}
+
+#footer-contacts p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.fbook {
+   height: 25px;
+   width: 25px; 
+}
