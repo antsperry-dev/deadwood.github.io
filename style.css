@@ -164,7 +164,7 @@ h1 {
 @media screen and (max-width: 500px) {
     .services-grid {
       grid-gap: 1%;
-      width: 98%;
+      width: 90%;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       margin-right: auto;
