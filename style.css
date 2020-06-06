@@ -162,8 +162,15 @@ h1 {
 }
 
 @media screen and (max-width: 500px) {
-    .box {
+    .services-grid {
       width: 100%;
       display: block;
+      grid-gap: 1%;
+      width: 98%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 5rem;
     }
   }
