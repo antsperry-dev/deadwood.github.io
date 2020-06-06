@@ -163,8 +163,6 @@ h1 {
 
 @media screen and (max-width: 500px) {
     .services-grid {
-      width: 100%;
-      display: block;
       grid-gap: 1%;
       width: 98%;
       display: grid;
