@@ -95,6 +95,11 @@
     text-decoration: underline;
 }
 
+li {
+    list-style: none;
+    line-height: 30px;
+}
+
 h2 {
     margin-bottom: 15px;
 }
@@ -313,6 +318,7 @@ ul {
     }
     .navigation-bar {
         height: 200px;
+        text-align: center;
     }
     .header-phone-text {
         margin-right: 15px;
