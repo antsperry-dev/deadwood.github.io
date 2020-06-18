@@ -307,13 +307,12 @@ ul {
     }
 
     .header-contacts {
-        width: 400px;
         float: none;
         margin: 0 auto;
         position: relative;
     }
     .navigation-bar {
-        height: 210px;
+        height: 180px;
     }
     .header-phone-text {
         margin-right: 15px;
