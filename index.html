@@ -2,31 +2,56 @@
 <html>
 <head>
     <title>Deadwood</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.CSS">
+    <div id="fb-root"></div>
 </head>
 <body>
 
-<header>
-    <img src="Images/logo-cropped.jpg" alt="Deadwood logo" title="Deadwood" class="logo">
+<header class="navigation-bar">
+    <nav class="navigation">
+        <div id="menuToggle">
+          
+          <input type="checkbox" />
+         
+          <span></span>
+          <span></span>
+          <span></span>
+         
+          <ul id="menu">
+            <a href="index.html" class ="active"><li>Home</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="gallery.html"><li>Gallery</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    <div class='logo-container'>
+        <img src="Images/logo-cropped.jpg" alt="Deadwood logo" title="Deadwood" class="logo">
+    </div>
+    <nav class="menu">
+        <a href="index.html" class ="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-contacts">
+        <a href="tell:07941780204" class="header-phone-text"><img src="Images\phone.png" class="phone"/>07941 780204 </a>
+        <a href="mailto:rdcritchley@gmail.com"class="header-email-text"><img src="Images\email.png" class="email"/>rdcritchley@gmail.com</a>
+    </div>
 </header>
-
-<nav class="nav">
-    <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
 
 <main>
     <div id="hero-banner">
         <div id="intro">
-          <h1>Heading</h1>
-          <p id="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at est justo. Praesent convallis felis diam, id bibendum nisl feugiat at. Pellentesque ac aliquam nibh. Proin vitae dignissim ligula, in congue neque. Aenean elementum, libero sit amet dapibus lacinia, nulla turpis pretium purus, id aliquet tellus ligula et enim. </p>
+          <h1>Some kind of header</h1>
         </div>
+    </div>
+
+    <div class = "text-body">
+        <h2>Deadwood woodland management services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum pretium ligula, sed iaculis felis ullamcorper sed. Vestibulum nunc neque, eleifend et ex vel, maximus eleifend quam. Cras nec turpis vitae diam rhoncus euismod. Aenean finibus dignissim dolor. Phasellus efficitur est feugiat mi semper, eget dignissim neque bibendum. Nam imperdiet tincidunt ipsum, eget ornare erat volutpat in. Vestibulum faucibus lorem et risus pulvinar eleifend. Etiam ut feugiat elit. Nulla finibus bibendum mollis. Aliquam fermentum mattis neque. Nunc quis scelerisque ipsum. Nam eget lorem cursus neque blandit convallis.</p>
     </div>
 
     <section class="services-grid">
@@ -59,10 +84,10 @@
 <footer>
     <div id="footer-contacts">
         <h2>Contact us</h2>
-        <p><strong>Phone</strong>: 07941 780204 | <strong>Email</strong>: rdcritchley@gmail.com</p>
-        <a href="https://www.facebook.com/Dead_wood-107507260779482/?ref=page_internal" target="_blank"><img src="Images\facebook.png" class="fbook"></a>
+        <ul class="footer">
+            <li><a href="tell:07941780204" class="footer-phone-text"><img src="Images\phone.png" class="phone"/>07941 780204 </li></a>
+            <li><a href="mailto:rdcritchley@gmail.com"class="footer-email-text"><img src="Images\email.png" class="email"/>rdcritchley@gmail.com</li></a> 
+            <li><a href="https://www.facebook.com/Dead_wood-107507260779482/?ref=page_internal" target="_blank" class="footer-fbook-text"><img src="Images\facebook.png" class="fbook">facebook</li></a> 
+        </ul>
     </div>
 </footer>
-
-</body>
-</html>
