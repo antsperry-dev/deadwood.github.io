@@ -366,7 +366,7 @@ ul {
 #menuToggle {
   display: block;
   position: absolute;
-  top: 70px;
+  top: 80px;
   left: 50px;
   z-index: 1;
   -webkit-user-select: none;
