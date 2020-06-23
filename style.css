@@ -446,6 +446,7 @@ ul {
 {
   position: absolute;
   width: 105vw;
+  height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
