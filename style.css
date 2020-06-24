@@ -164,7 +164,7 @@ h1 {
 
 .box{
     box-shadow: 1px 1px 12px #808080;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     position: relative;
     height: 500px;
