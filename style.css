@@ -153,21 +153,26 @@ h1 {
 }
 
 .services-grid {
-    width: 98%;
+    width: 96%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2.5%;
+    grid-gap: 2%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5rem;
+    grid-auto-rows: 550px;
 }
 
 .box{
     box-shadow: 1px 1px 12px #808080;
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
     position: relative;
-    height: 550px;
+    transition: 0.1s;
+}
+
+.box:hover {
+    transform: scale(1.02);
 }
 
 h3 {
